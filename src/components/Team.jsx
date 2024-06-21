@@ -6,13 +6,41 @@ const Team = () => {
         <div className="w-[70rem] flex flex-col justify-center items-center">
             <h1 className="text-6xl font-bold tracking-tighter">Meet Our Team👩🏻‍💻</h1>
             <div className="flex gap-8 mt-20 flex-wrap">
-                <TeamCard />
-                <TeamCard />
-                <TeamCard />
-                <TeamCard />
-                <TeamCard />
-                <TeamCard />
-                <TeamCard />
+                <TeamCard 
+                  name="Ahmad"
+                  path="ML"
+                  image="assets/ahmad.png"
+                />
+                <TeamCard 
+                  name="Dayn"
+                  path="ML"
+                  image="assets/dayn.png"
+                />
+                <TeamCard 
+                  name="Icha"
+                  path="ML"
+                  image="assets/icha.png"
+                />
+                <TeamCard 
+                  name="Washlur"
+                  path="CC"
+                  image="assets/washlur.jpg"
+                />
+                <TeamCard 
+                  name="Pram"
+                  path="CC"
+                  image="assets/face.jpg"
+                />
+                <TeamCard 
+                  name="Hilmy"
+                  path="MD"
+                  image="assets/hilmy.jpg"
+                />
+                <TeamCard 
+                  name="Sulaiman"
+                  path="MD"
+                  image="assets/sulaiman.jpg"
+                />
             </div>
         </div>
     </div>

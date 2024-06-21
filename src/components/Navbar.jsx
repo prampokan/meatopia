@@ -27,26 +27,26 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className="hidden sm:flex gap-5">
-                    <li className="text-lg font-medium">
-                        <a href="">Home</a>
+                    <li className="text-lg font-medium hover:text-green-500 transition-all">
+                        <a href="#home">Home</a>
                     </li>
-                    <li className="text-lg font-medium">
-                        <a href="">About</a>
+                    <li className="text-lg font-medium hover:text-green-500 transition-all">
+                        <a href="#about">About</a>
                     </li>
-                    <li className="text-lg font-medium">
-                        <a href="">Info</a>
+                    <li className="text-lg font-medium hover:text-green-500 transition-all">
+                        <a href="#feature">Feature</a>
                     </li>
-                    <li className="text-lg font-medium">
-                        <a href="">Contact</a>
+                    <li className="text-lg font-medium hover:text-green-500 transition-all">
+                        <a href="#info">Info</a>
                     </li>
                 </ul>
                 <div className="relative flex sm:hidden gap-5" ref={divRef}>
                     <Bar onclick={() => setOpen(!open)}/>
                     <div className={`${open ? "opacity-1 translate-y-1" : "invisible"} shadow rounded-xl transition-all absolute w-52 flex flex-col gap-2 top-14 right-0 bg-white p-2 z-10`}>
-                        <a href="" className="bg-white p-2 font-medium">Home</a>
-                        <a href="" className="bg-white p-2 font-medium">About</a>
-                        <a href="" className="bg-white p-2 font-medium">Info</a>
-                        <a href="" className="bg-white p-2 font-medium">Contact</a>
+                        <a href="#home" className="bg-white p-2 font-medium hover:text-green-500">Home</a>
+                        <a href="#about" className="bg-white p-2 font-medium hover:text-green-500">About</a>
+                        <a href="#feature" className="bg-white p-2 font-medium hover:text-green-500">Info</a>
+                        <a href="#info" className="bg-white p-2 font-medium hover:text-green-500">Contact</a>
                     </div>
                 </div>
             </div>

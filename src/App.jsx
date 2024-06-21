@@ -3,6 +3,8 @@ import Hero from "./components/Hero"
 import About from "./components/About"
 import Scan from "./components/Scan"
 import Feature from "./components/Feature"
+import OtherFeature from "./components/OtherFeature"
+import Tech from "./components/Tech"
 import Team from "./components/Team"
 import Footer from "./components/Footer"
 
@@ -14,6 +16,8 @@ function App() {
       <About />
       <Feature />
       <Scan />
+      <OtherFeature />
+      {/* <Tech /> */}
       <Team />
       <Footer />
     </div>
